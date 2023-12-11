@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* reset the default css styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+   background-image: url("/solution/illustration-sign-up-mobile.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   background-color: #cccccc;
+   border-bottom-right-radius: 5%;
+   border-bottom-left-radius: 5%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.success-message {
+    display: none;
+}
+
+.visible-success {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    font-weight: 300;
+    font-weight: lighter;
+    padding-top: 3rem;
+    padding-left: 20px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.visible-success h3{
+    line-height: 1.5em;;
+}
+
+.update {
+    font-family:"Roboto", sans-serif ;
+    font-weight: 400;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.benefits {
+    font-family:"Roboto", sans-serif ;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 30px;
+}
+
+.item {
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+}
+
+.item h4 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 1.5em;
+}
+
+.email-updates {
+    font-family:"Roboto", sans-serif ;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+#emailLabel {
+    margin-bottom: 20px;
+}
+
+#email {
+    padding: 15px;
+    border: 0.5px silver solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitBtn {
+    margin-top: 20px;
+    padding: 15px;
+    border: 0.5px silver solid;
+    border-radius: 5px;
+    background: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.dismissBtn {
+    width: 80vw;
+    margin-top: 20px;
+    padding: 15px;
+    border: 0.5px silver solid;
+    border-radius: 5px;
+    background: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.successIcon {
+    align-items: baseline;
+}
+
+.submitBtn:hover {
+   background-color: hsl(4, 100%, 67%);
+}
+
+.dismissBtn:hover {
+    background-color: hsl(4, 100%, 67%);
+}
+
+#emailError {
+    display: none;
+    color: red;
+}

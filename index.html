@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Monthly Newsletter </title>
+</head>
+<body>
+    <div class="signup">
+        <div class="header">
+        </div>
+        <div class="update">
+            <h1> Stay updated!</h1>
+            <h3>Join 60,000+ product managers receiving monthly updates on:</h3>
+        </div>
+        <div class="benefits">
+            <div class="item">
+                <img src="images/icon-list.svg" height="30" width="30"> <h4>Product discovery and building what matters</h4>
+            </div>
+            <div class="item">
+                <img src="images/icon-list.svg" height="30" width="30"><h4>Measuring to ensure updates are a success</h4>
+            </div>
+          <div class="item">
+            <img src="images/icon-list.svg" height="30" width="30"> <h4> And much more! </h4>
+          </div>
+        </div>
+        <div class="email-updates">
+            <label for="email" id="emailLabel"> Email Address:</label><span id="emailError"> Valid Email Required</span>
+            <input type="email" id="email" placeholder="email@company.com">
+            <button class="submitBtn" id="submit"> Subscribe to Monthly Newsletter </button>
+        </div>
+    </div>
+
+    <div class="success-message">
+        <div class="container">
+            <img class="successIcon" src="images/icon-list.svg" height="50" width="50">
+            <h1> Thanks for Subscribing </h1>
+            <h3> A confirmation email has been sent to <span id="emailAddress"></span>. Please open it and click the button inside to confirm your subscription </h3>
+        </div>
+        <button class="dismissBtn" id="dismiss"> Dismiss Message  </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
