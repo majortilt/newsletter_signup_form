@@ -164,8 +164,9 @@ h4 {
 }
 
 .dismissBtn {
-    width: 80vw;
+    width: 90%;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 15px;
     border: 0.5px silver solid;
     border-radius: 5px;
@@ -191,8 +192,28 @@ h4 {
     color: red;
 }
 
+.visible-success {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 450px;
+    width: 450px; 
+    padding: 20px;
+    background-color:  hsl(0, 0%, 100%);
+    font-weight: 200;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.container h1 {
+    font-size: 2.5em;
+}
 
+#emailAddress {
+    font-weight: 600;
+}
 /* Media Queries */ 
 
 @media (max-width: 400px) {
@@ -213,11 +234,28 @@ h4 {
         border: none !important;
     }
 
+
+    .left {
+        order: 2;
+    }
+    .right {
+        order: 1;
+    }
+
+    .left, .right {
+        flex: 1;
+        padding: 0 !important;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+
     .header {
         background-image: url("/solution/illustration-sign-up-mobile.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 300px;
+        height: 360px;
         background-color: #cccccc;
         border-bottom-right-radius: 5%;
         border-bottom-left-radius: 5%;
