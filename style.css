@@ -37,7 +37,7 @@ body {
 
 
 .header {
-    background-image: url("/solution/illustration-sign-up-mobile.svg");
+    background-image: url("./illustration-sign-up-mobile.svg");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -263,7 +263,7 @@ h4 {
 
 
     .header {
-        background-image: url("/solution/illustration-sign-up-mobile.svg");
+        background-image: url("./illustration-sign-up-mobile.svg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 360px;
