@@ -55,4 +55,5 @@ const removeSuccess = () => {
     header.style.display ='';
     success.classList.add('success-message');
     success.classList.remove('visible-success');
+    email.innerHTML = '';
 }

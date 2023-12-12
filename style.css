@@ -129,6 +129,12 @@ body {
     padding-bottom: 5%;
 }
 
+.emailValidation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 h1 {
     padding-bottom: 20px;;
 }
@@ -141,7 +147,7 @@ h4 {
     font-weight: 400;
 }
 #emailLabel {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -190,6 +196,7 @@ h4 {
 #emailError {
     display: none;
     color: red;
+    font-size: 16px;
 }
 
 .visible-success {
@@ -209,6 +216,10 @@ h4 {
 
 .container h1 {
     font-size: 2.5em;
+}
+
+.container h3 {
+    line-height: 1.5;
 }
 
 #emailAddress {
@@ -369,7 +380,7 @@ h4 {
 
 
 #emailLabel {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
 }
